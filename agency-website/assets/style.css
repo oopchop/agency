@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #331B3B;
+    font-family: 'Hind Vadora', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Header */
+
+.header{
+    width: 1920px;
+    height: 848px;
+}
+
+/* Header__nav */
+
+.header__nav{
+    display: flex;
+    margin: 47px auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1308.19px;
+    height: 50px;
+}
+
+.header__nav__links{
+    width: 352px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav__links__link{
+    line-height: 23.97px;
+    letter-spacing: .01em;
+}
+
+.header__nav__society{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.header__nav__society__circle{
+    display: flex;
+    width: 43.61px;
+    height: 49.61px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid rgba(51, 27, 59, 0.64);
+    transform: rotate(30.5deg);
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav__society__circle img{
+    transform: rotate(-30.5deg);
+}
+
+#header__nav__society__circle__facebook{
+    width: 10px;
+    height: 20px;
+}
+
+#header__nav__society__circle__in{
+    width: 18px;
+    height: 18px;
+}
+
+#header__nav__society__circle__instagram{
+    width: 24px;
+    height: 24px;
+}
+
+#header__nav__logo{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    letter-spacing: .01em;
+    height: 36px;
+}
+
+/* Header__content */
+
+.header__content{
+    width: 1308.19px;
+    height: 629.17px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__content__start{
+    width: 517px;
+    height: 482px;
+    margin-top: 141.75px;
+}
+
+.header__content__eclipses{
+    width: 731px;
+    height: 629.17px;
+    margin: 21.58px 0 0 86px;
+}
+
+#header__content__eclipses__dotted__eclipse{
+    width: 581px;
+    height: 498px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px dashed #000000;
+    margin-top: 89.17px;
+}
+
+#header__content__eclipses__bg{
+    position: absolute;
+    width: 444px;
+    height: 629.17px;
+    margin-left: 143px;
+    z-index: 0;
+}
+
+#header__content__eclipses__guys{
+    position: absolute;
+    width: 721px;
+    height: 519.01px;
+    background: url("images/two_guys.png");
+    background-size: cover;
+    clip-path: url("#images__mask");
+    z-index: 1;
+    margin: 56.16px 0 0 10px;
+}
+
+#header__content__start__title{
+    position: relative;
+    width: 511px;
+    height: 261px;
+    font-weight: 300;
+    font-size: 87px;
+    line-height: 86.83px;
+    letter-spacing: -.01em;
+    z-index: 1;
+}
+
+#header__content__start__title__big{
+    font-weight: 700;
+}
+
+#header__content__start__underline{
+    position: relative;
+    bottom: 42px;
+    z-index: 0;
+    width: 291px;
+    border: 20px solid #05C19C;
+}
+
+#header__content__start__text{
+    position: relative;
+    bottom: 42px;
+    width: 515px;
+    letter-spacing: .02em;
+    font-size: 17px;
+    line-height: 24.87px;
+    color: rgba(51, 27, 59, .66);
+    margin-top: 27px;
+}
+
+#header__content__start__getstart{
+    position: relative;
+    bottom: 42px;
+    width: 207px;
+    height: 66px;
+    background: #331B3B;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    color: #FFFF;
+    font-size: 17px;
+    line-height: 23.34px;
+    letter-spacing: .02em;
+    margin-top: 53px;
+}
